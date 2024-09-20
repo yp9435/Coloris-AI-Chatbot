@@ -113,24 +113,24 @@ export default function Home() {
           zIndex: 1,
         }}
       >
-        <img src="/colorislogo.png" alt="ColorisAI Logo" style={{ height: '55px' }} /> 
+        <img src="/colorislogo.png" alt="ColorisAI Logo" style={{ height: '30px' }} /> 
         <Typography variant="subtitle1">Personal Colour Analysis Bot</Typography>
       </Box>
       <Stack
         direction={'column'}
-        width="600px" // Adjusted width for a wider chat space
+        width="600px" 
         height="700px"
         borderRadius={16}
-        border="1px solid rgba(255, 255, 255, 0.3)" // Thin white border
+        border="1px solid rgba(255, 255, 255, 0.3)" 
         boxShadow="0px 4px 12px rgba(0, 0, 0, 0.2)"
-        bgcolor="rgba(255, 255, 255, 0.2)" // More transparent background
+        bgcolor="rgba(255, 255, 255, 0.2)"
         p={2}
         spacing={3}
         sx={{
-          backdropFilter: 'blur(10px)', // Glassmorphism effect
+          backdropFilter: 'blur(10px)',
           borderRadius: '16px',
           overflow: 'hidden',
-          marginTop: '60px', // Ensure chat space is below the header
+          marginTop: '60px', 
         }}
       >
         <Typography variant="h6" component="div" fontWeight="bold" textAlign="center" color="white">
